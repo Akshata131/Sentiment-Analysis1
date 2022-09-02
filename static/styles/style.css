@@ -1,0 +1,54 @@
+body{
+    #background-color : rgb(3,65,65);
+    background-image: url("https://www.orissapost.com/wp-content/uploads/2022/07/twitter-1.jpg");
+}
+
+.container-lg{
+    width:100%;
+    height:550px;
+    color: rgb(19,19,19):
+    background-color: rgb(247,247,247);
+    border-radius: 20px;
+}
+.heading{
+    text-align: center;
+    padding-top:50px;
+    word-spacing: 10px;
+    margin-top: 50px;
+    font-weight:bold;
+    color: white;
+}
+
+#TEXT{
+    text-align: center;
+    display: flax;
+    height: 100px;
+    width: 750px;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+
+.btn {
+  text-align: center;
+  background-color: #00BFFF;
+  border: 1px solid green;
+  color: white;
+  margin-top:50px;
+  margin-left:500px;
+  padding: 20px 30px;
+  cursor: pointer;
+  width: 20%;
+  display: block;
+
+}
+
+.form{
+    text-align: center;
+}
+
+.output{
+    text-align:center;
+    margin-top: 50px;
+    font-size: 30px;
+    color: white;
+}

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Tweet</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='styles/style.css') }}">
+</head>
+
+<body>
+     <div class="container">
+         <div class="container-lg">
+            <h1 class="heading">SENTIMENTAL  ANALYSIS</h1>
+            <form method="POST" class="form">
+                 <input type="text" id="TEXT" name="TEXT" placeholder="Enter your Tweet !!">
+                 <button type="submit" id="btn" class="btn btn-primary">Predict</button>
+            </form>
+             <h1 class="output" id="txt">{{sentence}}</h1>
+         </div>
+
+     </div>
+</body>
+</html>
+
